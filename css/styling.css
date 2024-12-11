@@ -1,0 +1,97 @@
+/* algemene stijl */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+header{
+    min-height: 200px;
+    background-image: url(../figuren/wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav .banner{
+    width: 100px;
+    height: 100px;
+    background-image: url(../figuren/logo.png);
+    background-size: cover;
+}
+
+
+
+header nav .items{
+    display: flex;
+}
+
+header nav .item{
+    padding: 5px 10px;
+    list-style: none;
+    font-weight: 600;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+
+/* main */
+
+/* section 1 */
+main .info{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .tekst{
+    width: 700px;
+    padding: 50px;
+    /* border: solid black; */
+}
+
+main .tekst .titel{
+    padding: 10px 0;
+}
+
+main .zeezicht{
+    width: 500px;
+    height: 300px;
+    background-image: url(../figuren/zeezicht.jpg);
+    background-size: cover;
+    margin: 3px;
+}
+
+/* section 2 */
+main .fotos{
+    display: flex;
+    justify-content: space-between;
+}
+main .fotos .foto{
+    width: 350px;
+    height: 350px;
+}
+
+main .fotos .foto1{
+    background-image: url(../figuren/huis.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .fotos .foto2{
+    background-image: url(../figuren/grondplan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid lightblue;
+}
+
+main .fotos .foto3{
+    background-image: url(../figuren/ligging.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
