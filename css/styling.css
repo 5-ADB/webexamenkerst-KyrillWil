@@ -6,10 +6,11 @@
 
 /* header */
 header{
-    min-height: 200px;
+    min-height: 150px;
     background-image: url(../figuren/wave.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 75px;
 }
 
 header nav{
@@ -46,13 +47,12 @@ header nav a{
 /* section 1 */
 main .info{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 main .tekst{
     width: 700px;
     padding: 50px;
-    /* border: solid black; */
 }
 
 main .tekst .titel{
@@ -60,21 +60,27 @@ main .tekst .titel{
 }
 
 main .zeezicht{
-    width: 500px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     background-image: url(../figuren/zeezicht.jpg);
     background-size: cover;
     margin: 3px;
+    border-radius: 50px;
 }
 
 /* section 2 */
 main .fotos{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    /* border: solid black; */
+    height: 600px;
+    align-items: center;
 }
 main .fotos .foto{
     width: 350px;
-    height: 350px;
+    height: 450px;
+    border: solid green;
+    border-radius: 50px 0;
 }
 
 main .fotos .foto1{
@@ -88,10 +94,26 @@ main .fotos .foto2{
     background-repeat: no-repeat;
     background-size: cover;
     border: solid lightblue;
+    
 }
 
 main .fotos .foto3{
     background-image: url(../figuren/ligging.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* footer */
+footer nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gray;
+    height: 40px;
+}
+
+footer nav p{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
 }
