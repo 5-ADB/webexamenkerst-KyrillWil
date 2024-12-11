@@ -44,7 +44,7 @@ header nav a{
 
 /* main */
 
-/* section 1 */
+/* section 1 info*/
 main .info{
     display: flex;
     justify-content: center;
@@ -68,7 +68,32 @@ main .zeezicht{
     border-radius: 50px;
 }
 
-/* section 2 */
+/* section 2 korting */
+main .kortingknop{
+    display: flex;
+    justify-content: end;
+}
+
+main .knop{
+    position: fixed;
+}
+
+main .korting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 75px;
+    background-color: rgb(9, 179, 246);
+    border-radius: 30px;
+}
+
+main .korting a{
+    text-decoration: none;
+    color: black;
+}
+
+/* section 3 fotos */
 main .fotos{
     display: flex;
     justify-content: space-evenly;
